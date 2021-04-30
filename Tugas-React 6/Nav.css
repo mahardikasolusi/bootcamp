@@ -1,0 +1,79 @@
+/* nav{
+  padding: 1em;
+  border-bottom: 1px solid #aaa;
+}
+
+ul{
+  list-style-type: none;
+  width: 90%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul li{
+  display: inline;
+  margin-left: 10px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #aaa;
+} */
+
+/* dark nav theme */
+
+nav.dark-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav.dark-nav li {
+  float: left;
+}
+
+nav.dark-nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav.dark-nav li a:hover {
+  background-color: #666;
+}
+
+/* light nav theme */
+
+nav.light-nav{
+  border-bottom: 1px solid #aaa;
+}
+
+nav.light-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+nav.light-nav li {
+  float: left;
+}
+
+nav.light-nav li a {
+  display: block;
+  color: #aaa;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav.light-nav li a:hover {
+  background-color: #eee;
+}
